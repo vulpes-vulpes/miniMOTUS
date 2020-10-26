@@ -1,6 +1,4 @@
 # miniMOTUS
-Code associated with deployments of MOTUS at small geographical scale. 
+Repository of experimental code for apply the MOTUS animal telemetry system at a narrower geographic scale to track foraging bats. 
 
-Currently private. 
-
-Extra line added from Github. 
+Don't expect anything to actually work. 
