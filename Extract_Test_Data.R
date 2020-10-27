@@ -2,7 +2,7 @@
 Sys.setenv(TZ = "UTC")
 
 # Import saved data as RDS file:
-df.alltagsGPS <- readRDS("/Users/toby/Toronto Zoo/Bat Conservation - General/1 - Current Projects/c) miniMOTUS/1 - MOTUS Server Downloads/204_alltagsGPS.rds")
+df.alltagsGPS <- readRDS("/Users/toby/Toronto Zoo/Bat Conservation - General/1 - Current Projects/c) miniMOTUS/1 - MOTUS Server Downloads/204_alltagsGPS2.rds")
 
 # Subset relevant columns
 all.hits <- df.alltagsGPS[, c("ts", "sig", "motusTagID", "mfgID", "tagModel", "recvDeployID", "gpsLat", "gpsLon", "gpsAlt", "recv", "recvDeployName")]
